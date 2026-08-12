@@ -296,3 +296,22 @@ document.addEventListener('DOMContentLoaded', () => {
     highlightNav();
   }, 100);
 });
+
+// ── Projects Data Registry ──
+window.projectsData = [
+  {
+    id: 'datagen',
+    title: 'DATAGEN — Synthetic Dataset Generation Framework',
+    projectUrl: null // No live demo URL currently available
+  },
+  {
+    id: 'rr',
+    title: 'RR — Author Website & Publishing CMS',
+    projectUrl: 'https://rr-author-website-author-website.vercel.app'
+  },
+  {
+    id: 'ethosai',
+    title: 'ETHOSAI — Intelligent Healthcare Smart Check-In System',
+    projectUrl: 'https://ethos-ai-api-server.vercel.app'
+  }
+];
