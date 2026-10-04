@@ -1506,7 +1506,8 @@ ul, ol { list-style: none; }
   min-width: 120px;
 }
 
-.stat-number {
+.stat-number,
+.stat-prefix {
   font-size: var(--fs-4xl);
   font-weight: 900;
   background: linear-gradient(135deg, var(--violet-600), var(--violet-400));
